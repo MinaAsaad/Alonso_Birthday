@@ -1,0 +1,102 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: white;
+    /* background: rgb(7, 97, 7); */
+    background: linear-gradient(rgb(13, 172, 13),rgb(1, 71, 1));
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 3px black;
+}
+
+#bday-age{
+    background: rgb(41, 75, 49);
+    padding: 7px 12px;
+    border-radius: 8px;
+    margin: 15px 0px 10px 0px;
+}
+
+#bday-date{
+    background: rgb(41, 75, 49);
+    padding: 7px 12px;
+    margin: 0px;
+}
+
+#alonsoPort{
+    width: 250px;
+    border-radius: 50%;
+    border: 7px solid rgb(145, 255, 0);
+}
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.gift-section{
+    margin: 55px auto 10px auto;
+}
+
+.gift-pic {
+    width: 600px;
+    height: 400px;
+    border: 7px solid rgb(145, 255, 0);
+    border-radius: 25px;
+    background-image: url(f1-car.jpg);
+    background-size: cover;
+    margin: 0px auto;
+}
+
+#gift-pic-1:hover {
+    background-image: url(leclerc.gif);
+    border: 15px solid rgb(177, 15, 42);
+}
+
+.gift-title{
+    margin: 5px 0px 10px 0px;
+}
+
+.gift-hint{
+    margin: 0px 0px 20px 0px;
+}
+
+#gift-pic-2:hover {
+    background-image: url(alonsoo.gif);
+    border: 15px solid rgb(255, 255, 255);
+}
+
+#gift-pic-3:hover {
+    background-image: url(goat.gif);
+    border: 15px solid yellow;
+    background-size: cover;
+}
+
+#gift-pic-4:hover {
+    background-image: url(lewis.gif);
+    border: 10px solid white;
+    background-size: cover;
+}
+
+#gift-pic-win {
+    width: 800px;
+}
+
+#gift-pic-win:hover {
+    background-image: url(win.gif);
+    border: 10px solid white;
+    background-size: cover;
+}
+
+.underline{
+    /* border-bottom: 3px solid white; */
+    color: white;
+}
+
+#footer {
+    font-style: italic;
+    margin: 25px auto 20px auto;
+    width: 600px;
+}
